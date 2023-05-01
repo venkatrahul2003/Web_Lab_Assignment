@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Website Title</title>
+  <style>
+    nav {
+      display: flex;
+      align-items: center;
+      background-color: rgb(249, 94, 94);
+      padding: 10px;
+      margin: -8px;
+      height: 130px;
+      margin-right: -13px;
+}
+    .navbar-logo img {
+      height: 94px;
+      margin-right: 10px;
+      width: 78px;
+    }
+
+    .navbar-title h1 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 28px;
+      color: white;
+    }
+    * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 819px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar-logo">
+      <a><img src="./logo.png" alt="Logo"></a>
+    </div>
+    <div class="navbar-title">
+      <h1 style="color: black; padding-left: 550px;"><a>M.S Ramaiah Institute of Technology</a></h1>
+      <h1 style="color: black; padding-left: 450px;">Department of Computer Science and Engineering</h1>
+    </div>
+  </nav>
+<div class="row" style="margin:8px; margin-left: -9px; margin-right: -13px;">
+  <div class="column" style="background-color:#e2a674;">
+    <h1>Features</h1>
+    <ul>
+        <li><a href="#"><h3>Login</h3></a></li>
+        <li><a href="#"><h3>Profile</h3></a></li>
+        <li><a href="#"><h3>Payment</h3></a></li>
+        <li><a href="#"><h3>Results</h3></a></li>
+        <li><a href="#"><h3>About</h3></a></li>
+    </ul>
+  </div>
+  <div class="column" style="background-color:#94b764;">
+    <h2>Welcome to MSRIT</h2>
+    <h3>About MSRIT</h3>
+    <p>We are ranked No. 67 among 1249 Engineering & No. 17 among 91 Architecture Institutions across the country as per MHRD, Govt. of India, 2022<br><br>
+      We are accredited by NAAC with 'A+' grade with score of 3.28.
+
+All of our academic departments are accredited by NBA under new process.
+
+
+      
+    </p>
+  </div>
+  <div class="column" style="background-color:#db8686;">
+    <h2>Events</h2>
+    <ul>
+        <li><h3>Centuriton</h3></li>
+        <li><h3>ShoutOut</h3></li>
+        <li><h3>Udbhav</h3></li>
+        <li><h3>Sudarshana Event</h3></li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
